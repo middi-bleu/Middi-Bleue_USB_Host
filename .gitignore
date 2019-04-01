@@ -6,3 +6,9 @@ v2018_11_26/apps/usb/host/cdc_basic/firmware/exp16_pic32mm0256gpm064_pim.x/nbpro
 *.xml
 *.properties
 *.mk
+*.elf
+*.hex
+*.map
+*.xml
+*.xml
+*.properties
