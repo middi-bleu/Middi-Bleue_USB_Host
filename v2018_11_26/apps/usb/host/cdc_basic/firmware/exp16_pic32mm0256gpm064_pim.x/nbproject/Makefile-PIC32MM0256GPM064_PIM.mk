@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=../../../../../../bsp/exp16/pic32mm0256gpm064_pim/lcd.c ../../../../../../bsp/exp16/pic32mm0256gpm064_pim/leds.c ../../../../../../bsp/exp16/pic32mm0256gpm064_pim/timer_1ms.c ../../../../../../framework/usb/src/usb_host.c ../../../../../../framework/usb/src/usb_host_cdc.c ../../../../../../framework/usb/src/usb_host_cdc_interface.c ../demo_src/usb_config.c ../demo_src/app_host_cdc_basic.c ../demo_src/main.c system.c
+SOURCEFILES_QUOTED_IF_SPACED=../../../../../../bsp/exp16/pic32mm0256gpm064_pim/lcd.c ../../../../../../bsp/exp16/pic32mm0256gpm064_pim/leds.c ../../../../../../bsp/exp16/pic32mm0256gpm064_pim/timer_1ms.c ../../../../../../framework/usb/src/usb_host.c ../../../../../../framework/usb/src/usb_host_cdc.c ../../../../../../framework/usb/src/usb_host_cdc_interface.c ../demo_src/usb_config.c ../demo_src/app_host_cdc_basic.c ../demo_src/main.c system.c ../../../../../../framework/usb/src/usb_host_midi.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/70818574/lcd.o ${OBJECTDIR}/_ext/70818574/leds.o ${OBJECTDIR}/_ext/70818574/timer_1ms.o ${OBJECTDIR}/_ext/838585624/usb_host.o ${OBJECTDIR}/_ext/838585624/usb_host_cdc.o ${OBJECTDIR}/_ext/838585624/usb_host_cdc_interface.o ${OBJECTDIR}/_ext/300881143/usb_config.o ${OBJECTDIR}/_ext/300881143/app_host_cdc_basic.o ${OBJECTDIR}/_ext/300881143/main.o ${OBJECTDIR}/system.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/70818574/lcd.o.d ${OBJECTDIR}/_ext/70818574/leds.o.d ${OBJECTDIR}/_ext/70818574/timer_1ms.o.d ${OBJECTDIR}/_ext/838585624/usb_host.o.d ${OBJECTDIR}/_ext/838585624/usb_host_cdc.o.d ${OBJECTDIR}/_ext/838585624/usb_host_cdc_interface.o.d ${OBJECTDIR}/_ext/300881143/usb_config.o.d ${OBJECTDIR}/_ext/300881143/app_host_cdc_basic.o.d ${OBJECTDIR}/_ext/300881143/main.o.d ${OBJECTDIR}/system.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/70818574/lcd.o ${OBJECTDIR}/_ext/70818574/leds.o ${OBJECTDIR}/_ext/70818574/timer_1ms.o ${OBJECTDIR}/_ext/838585624/usb_host.o ${OBJECTDIR}/_ext/838585624/usb_host_cdc.o ${OBJECTDIR}/_ext/838585624/usb_host_cdc_interface.o ${OBJECTDIR}/_ext/300881143/usb_config.o ${OBJECTDIR}/_ext/300881143/app_host_cdc_basic.o ${OBJECTDIR}/_ext/300881143/main.o ${OBJECTDIR}/system.o ${OBJECTDIR}/_ext/838585624/usb_host_midi.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/70818574/lcd.o.d ${OBJECTDIR}/_ext/70818574/leds.o.d ${OBJECTDIR}/_ext/70818574/timer_1ms.o.d ${OBJECTDIR}/_ext/838585624/usb_host.o.d ${OBJECTDIR}/_ext/838585624/usb_host_cdc.o.d ${OBJECTDIR}/_ext/838585624/usb_host_cdc_interface.o.d ${OBJECTDIR}/_ext/300881143/usb_config.o.d ${OBJECTDIR}/_ext/300881143/app_host_cdc_basic.o.d ${OBJECTDIR}/_ext/300881143/main.o.d ${OBJECTDIR}/system.o.d ${OBJECTDIR}/_ext/838585624/usb_host_midi.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/70818574/lcd.o ${OBJECTDIR}/_ext/70818574/leds.o ${OBJECTDIR}/_ext/70818574/timer_1ms.o ${OBJECTDIR}/_ext/838585624/usb_host.o ${OBJECTDIR}/_ext/838585624/usb_host_cdc.o ${OBJECTDIR}/_ext/838585624/usb_host_cdc_interface.o ${OBJECTDIR}/_ext/300881143/usb_config.o ${OBJECTDIR}/_ext/300881143/app_host_cdc_basic.o ${OBJECTDIR}/_ext/300881143/main.o ${OBJECTDIR}/system.o
+OBJECTFILES=${OBJECTDIR}/_ext/70818574/lcd.o ${OBJECTDIR}/_ext/70818574/leds.o ${OBJECTDIR}/_ext/70818574/timer_1ms.o ${OBJECTDIR}/_ext/838585624/usb_host.o ${OBJECTDIR}/_ext/838585624/usb_host_cdc.o ${OBJECTDIR}/_ext/838585624/usb_host_cdc_interface.o ${OBJECTDIR}/_ext/300881143/usb_config.o ${OBJECTDIR}/_ext/300881143/app_host_cdc_basic.o ${OBJECTDIR}/_ext/300881143/main.o ${OBJECTDIR}/system.o ${OBJECTDIR}/_ext/838585624/usb_host_midi.o
 
 # Source Files
-SOURCEFILES=../../../../../../bsp/exp16/pic32mm0256gpm064_pim/lcd.c ../../../../../../bsp/exp16/pic32mm0256gpm064_pim/leds.c ../../../../../../bsp/exp16/pic32mm0256gpm064_pim/timer_1ms.c ../../../../../../framework/usb/src/usb_host.c ../../../../../../framework/usb/src/usb_host_cdc.c ../../../../../../framework/usb/src/usb_host_cdc_interface.c ../demo_src/usb_config.c ../demo_src/app_host_cdc_basic.c ../demo_src/main.c system.c
+SOURCEFILES=../../../../../../bsp/exp16/pic32mm0256gpm064_pim/lcd.c ../../../../../../bsp/exp16/pic32mm0256gpm064_pim/leds.c ../../../../../../bsp/exp16/pic32mm0256gpm064_pim/timer_1ms.c ../../../../../../framework/usb/src/usb_host.c ../../../../../../framework/usb/src/usb_host_cdc.c ../../../../../../framework/usb/src/usb_host_cdc_interface.c ../demo_src/usb_config.c ../demo_src/app_host_cdc_basic.c ../demo_src/main.c system.c ../../../../../../framework/usb/src/usb_host_midi.c
 
 
 CFLAGS=
@@ -166,6 +166,12 @@ ${OBJECTDIR}/system.o: system.c  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/system.o 
 	@${FIXDEPS} "${OBJECTDIR}/system.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -DSYSTEM_PERIPHERAL_CLOCK=24000000 -I"." -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/exp16/pic32mm0256gpm064_pim" -MMD -MF "${OBJECTDIR}/system.o.d" -o ${OBJECTDIR}/system.o system.c    -DXPRJ_PIC32MM0256GPM064_PIM=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD) 
 	
+${OBJECTDIR}/_ext/838585624/usb_host_midi.o: ../../../../../../framework/usb/src/usb_host_midi.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/838585624" 
+	@${RM} ${OBJECTDIR}/_ext/838585624/usb_host_midi.o.d 
+	@${RM} ${OBJECTDIR}/_ext/838585624/usb_host_midi.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/838585624/usb_host_midi.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -DSYSTEM_PERIPHERAL_CLOCK=24000000 -I"." -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/exp16/pic32mm0256gpm064_pim" -MMD -MF "${OBJECTDIR}/_ext/838585624/usb_host_midi.o.d" -o ${OBJECTDIR}/_ext/838585624/usb_host_midi.o ../../../../../../framework/usb/src/usb_host_midi.c    -DXPRJ_PIC32MM0256GPM064_PIM=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD) 
+	
 else
 ${OBJECTDIR}/_ext/70818574/lcd.o: ../../../../../../bsp/exp16/pic32mm0256gpm064_pim/lcd.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/70818574" 
@@ -227,6 +233,12 @@ ${OBJECTDIR}/system.o: system.c  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/system.o 
 	@${FIXDEPS} "${OBJECTDIR}/system.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -DSYSTEM_PERIPHERAL_CLOCK=24000000 -I"." -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/exp16/pic32mm0256gpm064_pim" -MMD -MF "${OBJECTDIR}/system.o.d" -o ${OBJECTDIR}/system.o system.c    -DXPRJ_PIC32MM0256GPM064_PIM=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD) 
 	
+${OBJECTDIR}/_ext/838585624/usb_host_midi.o: ../../../../../../framework/usb/src/usb_host_midi.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/838585624" 
+	@${RM} ${OBJECTDIR}/_ext/838585624/usb_host_midi.o.d 
+	@${RM} ${OBJECTDIR}/_ext/838585624/usb_host_midi.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/838585624/usb_host_midi.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -DSYSTEM_PERIPHERAL_CLOCK=24000000 -I"." -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/exp16/pic32mm0256gpm064_pim" -MMD -MF "${OBJECTDIR}/_ext/838585624/usb_host_midi.o.d" -o ${OBJECTDIR}/_ext/838585624/usb_host_midi.o ../../../../../../framework/usb/src/usb_host_midi.c    -DXPRJ_PIC32MM0256GPM064_PIM=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD) 
+	
 endif
 
 # ------------------------------------------------------------------------------------
@@ -261,3 +273,11 @@ endif
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r build/PIC32MM0256GPM064_PIM
 	${RM} -r dist/PIC32MM0256GPM064_PIM
+
+# Enable dependency checking
+.dep.inc: .depcheck-impl
+
+DEPFILES=$(shell mplabwildcard ${POSSIBLE_DEPFILES})
+ifneq (${DEPFILES},)
+include ${DEPFILES}
+endif

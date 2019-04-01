@@ -10,6 +10,8 @@
         <itemPath>../../../../../../bsp/exp16/pic32mm0256gpm064_pim/leds.h</itemPath>
         <itemPath>../../../../../../bsp/exp16/pic32mm0256gpm064_pim/lcd.h</itemPath>
       </logicalFolder>
+      <logicalFolder name="f3" displayName="Midi_host" projectFiles="true">
+      </logicalFolder>
       <logicalFolder name="f1" displayName="usb" projectFiles="true">
         <itemPath>../../../../../../framework/usb/inc/usb.h</itemPath>
         <itemPath>../../../../../../framework/usb/inc/usb_ch9.h</itemPath>
@@ -48,6 +50,9 @@
         <itemPath>../../../../../../bsp/exp16/pic32mm0256gpm064_pim/leds.c</itemPath>
         <itemPath>../../../../../../bsp/exp16/pic32mm0256gpm064_pim/timer_1ms.c</itemPath>
       </logicalFolder>
+      <logicalFolder name="f1" displayName="Midi_host" projectFiles="true">
+        <itemPath>../../../../../../framework/usb/src/usb_host_midi.c</itemPath>
+      </logicalFolder>
       <logicalFolder name="f3" displayName="usb" projectFiles="true">
         <itemPath>../../../../../../framework/usb/src/usb_host.c</itemPath>
         <itemPath>../../../../../../framework/usb/src/usb_host_cdc.c</itemPath>
@@ -73,6 +78,8 @@
     <Elem>../src</Elem>
     <Elem>../demo_src</Elem>
     <Elem>.</Elem>
+    <Elem>../../../../../../framework/usb/src</Elem>
+    <Elem>../../../../../../framework/usb/inc</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -84,7 +91,7 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>ICD3PlatformTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>1.42</languageToolchainVersion>
+        <languageToolchainVersion>2.15</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>

@@ -20,6 +20,8 @@
                 <sourceRootElem>../src</sourceRootElem>
                 <sourceRootElem>../demo_src</sourceRootElem>
                 <sourceRootElem>.</sourceRootElem>
+                <sourceRootElem>../../../../../../framework/usb/src</sourceRootElem>
+                <sourceRootElem>../../../../../../framework/usb/inc</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>
