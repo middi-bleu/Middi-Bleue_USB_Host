@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/PIC32MM0256GPM064_PIM/production/exp16_pic32mm0256gpm064_pim.x.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>263312</length>                 
+      <used>40660</used>                     
+      <free>222652</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>32768</length>                 
+      <used>2084</used>                     
+      <free>30684</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 
